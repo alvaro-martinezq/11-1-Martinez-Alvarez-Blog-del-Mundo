@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Carga los caracteres latinos -->
     <meta charset="UTF-8">
-    <title>Tema del blog</title>
+    <title>Artes Plásticas</title>
 </head>
 <body>
-    <!--empieza mi blog-->
     <section>
-        <!-- Empieza el título del blog -->
         <header>
-            <h1>Titulo de mi blog</h1>
+            <h1>El arte y su importancia para el mundo</h1>
         </header>
-        <!-- Termina el título del blog -->
-
-        <!-- empieza conteido principal -->
         <main>
+            <article>
+                <header>
+                    <hgroup>
+                        <h2>Introducción</h2>
 
-            <!-- **** Aquí pondrás tus articles **** -->
+                        <h4>15/11/21</h4>
+                    </hgroup>
+                </header>
 
+                <div>
+                    <h3>Contexto</h3>
+                    <p>En este blog vamos a hablar de las artes plásticas y su impacto en el mundo. Nos estaremos centrando en como se fueron desarrollando a lo largo de los años, que significa y que sentimiento evocan algunas de las obras más importantes y tambien en la actualidad del arte</p>
+
+                    <h3>Desarrollo</h3>
+                    <p></p>
+
+                    <h3>Motivacion</h3>
+                    <p></p>
+                </div>
+
+                <footer>
+
+                </footer>
+            </article>
+            
         </main>
-        <!-- termina contenido principal -->
-
-        <!-- empieza barra lateral -->
+        
         <aside>
-
+ 
         </aside>
-        <!-- termina barra lateral -->
-
-        <!-- empieza el footer -->
+        
         <footer>
-
+ 
         </footer>
-        <!-- termina el footer -->
+       
     <section>
-    <!--termina mi blog-->
+    
 </body>
 </html>

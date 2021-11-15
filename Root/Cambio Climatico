@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Carga los caracteres latinos -->
     <meta charset="UTF-8">
-    <title>Tema del blog</title>
+    <title>Cambio Climático</title>
 </head>
 <body>
-    <!--empieza mi blog-->
     <section>
-        <!-- Empieza el título del blog -->
         <header>
-            <h1>Titulo de mi blog</h1>
+            <h1>El Cambio Climático desde mi punto de vista</h1>
         </header>
-        <!-- Termina el título del blog -->
-
-        <!-- empieza conteido principal -->
         <main>
+            <article>
+                <header>
+                    <hgroup>
+                        <h2>Introducción</h2>
 
-            <!-- **** Aquí pondrás tus articles **** -->
+                        <h4>15/11/21</h4>
+                    </hgroup>
+                </header>
+
+                <div>
+                    <h3>Contexto</h3>
+                    <p>El cambio climático es un tema que ha sido muy importante estos ultimos años, en especial porque hemos visto como hemps malgastado los recusos de la tierra. En este blog veremos diferentes ramas del tema de cambio climático. Estas ramas incluyen, el origen del cambio climático, lo cual es principalmente la contaminacion. Tambien veremos lo que el futuro puede ser si somos responsables y actuamos ahora. Otra rama es que podemos hacer para actuar, y nos centraremos en el Zero Waste.</p>
+
+                    <h3>Desarrollo</h3>
+                    <p></p>
+
+                    <h3>Motivacion</h3>
+                    <p>El cambio climático es un tema ciertamente importante para mi ya que creo que la forma en la que explotamos la Tierra no es correcta y vemos las consecuencias de nuestras decisiones cada día y aún asi decidimos ignorarlas. Me importa la tierra ya que es el hogar de las futuras generaciones y es poco ético pensafr antes en las comodidades propias que en la salud y bienestar de los humanos en el futuro.</p>
+                </div>
+
+                <footer>
+
+                </footer>
+            </article>
 
         </main>
-        <!-- termina contenido principal -->
-
-        <!-- empieza barra lateral -->
+        
         <aside>
-
+ 
         </aside>
-        <!-- termina barra lateral -->
-
-        <!-- empieza el footer -->
+        
         <footer>
-
+ 
         </footer>
-        <!-- termina el footer -->
+       
     <section>
-    <!--termina mi blog-->
+    
 </body>
 </html>

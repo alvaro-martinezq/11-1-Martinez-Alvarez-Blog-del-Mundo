@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Carga los caracteres latinos -->
     <meta charset="UTF-8">
     <title>Tema del blog</title>
 </head>
 <body>
-    <!--empieza mi blog-->
     <section>
-        <!-- Empieza el título del blog -->
         <header>
             <h1>Titulo de mi blog</h1>
         </header>
-        <!-- Termina el título del blog -->
-
-        <!-- empieza conteido principal -->
         <main>
+            <article>
+                <header>
+                    <hgroup>
+                        <h2>Título del Artículo</h2>
 
-            <!-- **** Aquí pondrás tus articles **** -->
+                        <h4>dd/mm/aa</h4>
+                    </hgroup>
+                </header>
 
+                <div>
+                    <h3>Ejemplo de subtítulo</h3>
+                    <p>Ejemplo de contenido</p>
+                </div>
+
+                <footer>
+
+                </footer>
+            </article>
+            
         </main>
-        <!-- termina contenido principal -->
-
-        <!-- empieza barra lateral -->
+        
         <aside>
-
+ 
         </aside>
-        <!-- termina barra lateral -->
-
-        <!-- empieza el footer -->
+        
         <footer>
-
+ 
         </footer>
-        <!-- termina el footer -->
+       
     <section>
-    <!--termina mi blog-->
+    
 </body>
 </html>
