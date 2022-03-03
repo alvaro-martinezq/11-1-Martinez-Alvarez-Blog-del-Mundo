@@ -1,0 +1,31 @@
+body{
+    background: rgb(0, 0, 0)
+}
+
+article{
+    background-color:rgb(238, 208, 125);
+    border-bottom: 1px solid white;
+    padding: 1.5rem;
+}
+
+nav>ul>li {
+    background-color:rgb(104, 21, 10);
+    list-style: none;
+    text-decoration: none;
+}
+
+#titulo_del_blog{
+    text-align: center;
+    font-size: 3rem;
+    color:rgb(104, 21, 10)
+}
+
+figure{
+    border: 4px solid white;
+    display: inline;
+}
+
+#footer_blog{
+    background-color: rgb(4, 80, 67);
+    margin: 2rem;
+}
