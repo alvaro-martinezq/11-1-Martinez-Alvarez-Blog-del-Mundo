@@ -1,3 +1,32 @@
+/* grid */
+section{
+    /* despliégate como  grid */
+    display: grid;
+    /* crea 12 columnas cada una de una fracción usando la función repeat*/
+    grid-template-columns: repeat(12, 1fr);
+    /* deja que las filas(renglones) ocupen el alto que necesitan */
+    grid-auto-rows: auto;
+    /* añade un espacio entre los elementos del grid de 3rem */
+    gap: 3rem;
+}
+/* termins grid */
+
+section>header{
+    grid-column: span 12;
+}
+
+section>main{
+    grid-column: span 8;
+}
+
+section>aside{
+    grid-column: span 4;
+}
+
+section>footer{
+    grid-column: span 12;
+}
+
 body{
     background: rgb(0, 0, 0)
 }
@@ -23,6 +52,10 @@ nav>ul>li {
 figure{
     border: 4px solid white;
     display: inline;
+}
+
+aside{
+    color: white;
 }
 
 #footer_blog{
