@@ -105,6 +105,7 @@ aside>h2{
 aside>div{
     display: flex;
     align-items: center;
+    padding: 20px;
 }
 
 aside>div:nth-of-type(even){
@@ -112,7 +113,7 @@ aside>div:nth-of-type(even){
 }
 
 aside>div>img{
-    background-color: white;
+    background-color: rgb(243, 182, 147);
     padding: 0.5rem;
     border-radius: 50%;
     margin-right: 20px;
