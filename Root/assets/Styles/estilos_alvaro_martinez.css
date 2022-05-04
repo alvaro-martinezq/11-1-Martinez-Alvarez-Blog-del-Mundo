@@ -1,0 +1,134 @@
+/* grid */
+section{
+    /* despliégate como  grid */
+    display: grid;
+    /* crea 12 columnas cada una de una fracción usando la función repeat*/
+    grid-template-columns: repeat(12, 1fr);
+    /* deja que las filas(renglones) ocupen el alto que necesitan */
+    grid-auto-rows: auto;
+    /* añade un espacio entre los elementos del grid de 3rem */
+    gap: 3rem;
+}
+/* termins grid */
+
+section>header{
+    grid-column: span 12;
+}
+
+section>main{
+    grid-column: span 8;
+}
+
+section>aside{
+    grid-column: span 4;
+}
+
+section>footer{
+    grid-column: span 12;
+}
+
+body{
+    background: rgb(0, 0, 0)
+}
+
+article{
+    background-color:rgb(238, 208, 125);
+    border-bottom: 1px solid white;
+    padding: 1.5rem;
+}
+
+nav{
+    font-size: 1.3rem;
+    background-color:rgb(104, 21, 10) ;
+}
+
+nav>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.5rem;
+}
+
+nav>ul>li {
+    background-color:rgb(104, 21, 10);
+    list-style: none;
+    text-decoration: none;
+}
+
+nav>ul>li>a{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav>ul>li>a:hover{
+    text-decoration: underline;
+    color: greenyellow
+}
+
+#titulo_del_blog{
+    text-align: center;
+    font-size: 3rem;
+    color:rgb(104, 21, 10)
+}
+
+article>header>hgroup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+article>header>hgroup>h2{
+    display: flex;
+    align-items: center;
+}
+
+article>header>hgroup>h2>img{
+    margin-right: 1rem;
+}
+
+figure{
+    border: 4px solid white;
+    display: inline;
+}
+
+aside{
+    color: white;
+}
+
+aside>h2{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+aside>div{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+aside>div:nth-of-type(even){
+    background-color: rgb(44, 43, 43);
+}
+
+aside>div>img{
+    background-color: rgb(243, 182, 147);
+    padding: 0.5rem;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#footer_blog{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 0 4rem 0;
+    background-color: rgb(4, 80, 67);
+    margin: 2rem;
+}
+
+#footer_blog div :nth-child(2){
+    font-size: 0.9rem;
+}
