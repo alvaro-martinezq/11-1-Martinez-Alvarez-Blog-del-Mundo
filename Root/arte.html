@@ -1,3 +1,4 @@
+<!-- Álvaro Martínez Quesada -->
 <!DOCTYPE html>
 <html lang="es">
 
@@ -5,6 +6,8 @@
         <!-- Carga los caracteres latinos -->
         <meta charset="UTF-8">
         <title>Arte</title>
+        <!-- Carga la hoja de estilos -->
+        <link rel="stylesheet" href="assets/styles/estilos_alvaro_martinez.css">
     </head>
 
     <body>
@@ -13,9 +16,9 @@
             <!-- Comienza etiqueta para listas desordenadas -->
             <ul>
                 <!-- Comienzan y terminan cada una de las referencias a los otros archivos -->
-                <li><a href="index.html">Index</a></li>
-                <li><a href="musica.html">Música</a></li>
-                <li><a href="futbol.html">Fútbol</a></li>
+                <li><a class="resaltado" href="index.html" target="_blank">Index</a></li>
+                <li><a href="musica.html">Musica</a></li>
+                <li><a href="futbol.html">Futbol</a></li>
                 <li><a href="universidades.html">Universidades</a></li>
             </ul>
             <!-- Termina etiqueta para listas desordenadas -->
@@ -25,44 +28,564 @@
         <section>
             <!-- Empieza el título del blog -->
             <header>
-                <h1>El arte y su importancia para el mundo</h1>
+                <h1 id="titulo_del_blog">Arte</h1>
             </header>
             <!-- Termina el título del blog -->
+            <!-- Empieza contenido principal -->
             <main>
-                <!-- Inicia entrada: El arte y su importancia -->
+                <!-- Inicia entrada: Universidades -->
                 <article>
                     <header>
                         <hgroup>
                             <!-- Título del artículo -->
-                            <h2>Introducción</h2>
+                            <h2 id="titulo"> <img src="icono" alt="" width="50px" height="auto"> Universidades</h2>
+                            <!-- Fecha en la que se escribió el artículo -->
                             <h4>15/11/21</h4>
                         </hgroup>
                     </header>
                     <!-- Inicia contenido del artículo -->
                     <div>
-                        <h3>Contexto</h3>
-                        <p>En este blog vamos a hablar de las artes plásticas y su impacto en el mundo. Nos estaremos
-                            centrando en como se fueron desarrollando a lo largo de los años, que significa y que
-                            sentimiento evocan algunas de las obras más importantes y tambien en la actualidad del arte
+                        <h3>Universidades en el extranjero </h3>
+                        <p>Una universidad es una institución académica de enseñanza superior e investigación que otorga
+                            títulos académicos en diferentes disciplinas. Se puede ubicar en uno o varios lugares
+                            llamados campus. La universidad moderna tiene su origen en las universidades creadas por
+                            monjes cristianos de los siglos XII y XIII, las cuales son un desarrollo de las escuelas
+                            catedralicias y escuelas monásticas. El término "universidad" se deriva del latín
+                            universitās magistrōrum et scholārium, que significa "comunidad de Profesores y académicos".
+                            Estas comunidades eran gremios medievales que recibieron sus derechos colectivos legales por
+                            las cartas emitidas por los príncipes, prelados o las ciudades en las que se encontraban.
+                            Otras ideas centrales para la definición de la institución de la universidad era la noción
+                            de libertad académica y el otorgamiento de grados académicos.
                         </p>
-
-                        <h3>Desarrollo</h3>
-                        <p></p>
-
-                        <h3>Motivacion</h3>
-                        <p></p>
+                        <!-- Inicia ilustración del artículo -->
+                        <figure class="ilustracion">
+                            <img src="assets/images/harvard.png" alt="harvard" width="600 px" height="auto">
+                            <figcaption>Harvard, la Universidad #1</figcaption>
+                        </figure>
+                        <!-- Termina ilustración del articulo -->
                     </div>
+                    <!-- Termina contendio del artÃ­culo -->
+                    <footer>
+                        <!-- Datos del autor -->
+                        <div>
+                            <span>Álvaro Martínez Quesada</span> <a href="https://www.instagram.com/alvaro.mtzq/"
+                                target="_blank">@alvaro.mtzq</a>
+                        </div>
+                        <!-- fin datos del autor -->
+                        <!-- bibliografía -->
+                        <blockquote>
+                            <p>Universidades, Cid Dela Garza: https://es.wikipedia.org/wiki/Universidad#cite_note-1</p>
+                        </blockquote>
+                        <!-- fin bibliografía -->
+                        </div>
+                    </footer>
                 </article>
                 <!-- Fin entrada: Universidades -->
+
+                <!-- Inicia entrada: Top 10 universidades en el mundo-->
+                <article>
+                    <header>
+                        <hgroup>
+                            <!-- Título del artículo-->
+                            <h2> <img src="assets/images/top-three.png" alt="top" width="50px" height="auto"> Ranking de
+                                Universidades a Nivel Mundial</h2>
+                            <h4>20/02/2022</h4>
+                        </hgroup>
+                    </header>
+                    <div>
+                        <!-- Subtítulo lista invertida -->
+                        <h3>Las 10 universidades mejor posicionadas por su prestigio y educación</h3>
+                        <!-- Inicio lista invertida -->
+                        <ol reversed>
+                            <li>Universidad John Hopkins</li>
+                            <li>Instituto de Tecnología de California Caltech</li>
+                            <li>Universidad de Cambridge</li>
+                            <li>Universidad de Washington, Seattle</li>
+                            <li>Universidad de Columbia</li>
+                            <li>Universidad de Oxford</li>
+                            <li>Universidad de California, Berkley</li>
+                            <li>Universidad de Stanford</li>
+                            <li>Massachusetts Institute of Technology</li>
+                            <li>Universidad de Harvard</li>
+                        </ol>
+                        <!-- Fin lista invertida -->
+                        <!-- Inicia ilustracion del artículo -->
+                        <figure class="ilustracion">
+                            <img src="assets/images/mit.png" alt="mit" width="600px" height="auto">
+                            <figcaption>MIT, ó Massachusetts Institute of Technology</figcaption>
+                        </figure>
+                    </div>
+                    <footer>
+                        <!-- Datos del autor -->
+                        <div>
+                            <span>Álvaro Martínez Quesada</span> <a href="https://www.instagram.com/alvaro.mtzq/"
+                                target="_blank">@alvaro.mtzq</a>
+                        </div>
+                        <!-- fin datos del autor -->
+                        <!-- bibliografía -->
+                        <blockquote>
+                            <p>Cuáles son las 10 universidades más destacadas del mundo, Anónimo:
+                                https://www.infobae.com/america/tendencias-america/2021/10/26/cuales-son-las-10-universidades-mas-destacadas-del-mundo/
+                            </p>
+                        </blockquote>
+                        <!-- fin bibliografía -->
+                    </footer>
+                </article>
+                <!-- Fin entrada: Top 10 universidades en el mundo-->
+
+                <!-- Inicia entrada: Páginas universitarias de referencia -->
+                <article>
+                    <header>
+                        <hgroup>
+                            <!-- Título del artículo -->
+                            <h2> <img src="assets/images/link.png" alt="link" width="50px" height="auto"> Sitios Web de
+                                los Museos más Importantes</h2>
+                            <h4>22/02/2022</h4>
+                        </hgroup>
+                    </header>
+                    <div>
+                        <h3>Páginas de Museos reconocidos para informarte mejor</h3>
+                        <p>
+                            Las siguientes son las páginas de los museos a traves de varios paises que son casa de obras
+                            de arte muy influyentes.
+                        </p>
+                        <ul>
+                            <li><a href="https://www.louvre.fr/es" target="_blank">Museo de Louvre. París, Francia</a>
+                            </li>
+                            <li><a href="https://www.museodelprado.es/" target="_blank">Museo del Prado. Madrid,
+                                    España</a></li>
+                            <li><a href="https://www.nationalgallery.org.uk/" target="_blank">Galería Nacional. Londres,
+                                    Reino Unido</a></li>
+                            <li><a href="https://www.metmuseum.org/visit/plan-your-visit/met-fifth-avenue/spanish"
+                                    target="_blank">Museo Metropolitano. Nueva York, EUA</a></li>
+                            <li><a href="https://www.mna.inah.gob.mx/" target="_blank">Museo Nacional de Antropología.
+                                    CDMX, México</a></li>
+                        </ul>
+                        <!-- Inicia ilustración del artí­culo -->
+                        <figure class="ilustracion">
+                            <img src="assets/images/louvre.jpg" alt="El Louvre" width="600px" height="auto">
+                            <figcaption>El Museo de Louvre. Un museo muy importante, ya que dentro tiene a la Mona Lisa
+                                de Da Vinci</figcaption>
+                        </figure>
+                        <!-- Termina lustración del artículo -->
+                    </div>
+                    <!-- Termina contenido del artículo -->
+                    <footer>
+                        <!-- Datos del autor -->
+                        <div>
+                            <span>Álvaro Martínez Quesada</span> <a href="https://www.instagram.com/alvaro.mtzq/"
+                                target="_blank">@alvaro.mtzq</a>
+                        </div>
+                        <!-- fin datos del autor -->
+                        <!-- bibliografía -->
+                        <blockquote>
+                            <p>Álvaro Martínez Q</p>
+                        </blockquote>
+                        <!-- fin bibliografía -->
+                    </footer>
+                </article>
+                <!-- Fin entrada: Páginas universitarias de referencia -->
+
+                <!-- Inicia entrada: video de youtube -->
+                <article>
+                    <header>
+                        <hgroup>
+                            <!-- Título del artículo -->
+                            <h2><img src="assets/images/youtube.png" alt="video de youtube" width="50 px"
+                                    height="auto">Video de la Historia del Arte</h2>
+                            <!-- Fecha en la que se escribio el artículo -->
+                            <h4>09/05/22</h4>
+                        </hgroup>
+                    </header>
+                    <!-- inicia contenido del artículo -->
+                    <div>
+
+                        <!-- inicia video -->
+                        <figure>
+                            <iframe width="600px" height="400px" src="https://www.youtube.com/watch?v=rUHxLrZwSIY"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <figcaption>Este video muestra como el arte fue dando forma y afectando a la historia del
+                                mundo
+                            </figcaption>
+                        </figure>
+                        <!-- termina video -->
+                    </div>
+                    <!-- termina contenido del artículo -->
+                    <footer>
+                        <!-- Datos del autor -->
+                        <div>
+                            <span>Álvaro Martínez Quesada</span> <a href="https://www.instagram.com/alvaro.mtzq/"
+                                target="_blank">@alvaro.mtzq</a>
+                        </div>
+                        <!-- fin datos del autor -->
+                        <!-- bibliografía -->
+                        <blockquote>
+                            <p>HISTORIA DEL ARTE EN 10 MINUTOS (Y ALGO MÁS), CARKI PRODUCTIONS
+                                : https://www.youtube.com/watch?v=rUHxLrZwSIY
+                            </p>
+                        </blockquote>
+                        <!-- fin bibliografía -->
+                    </footer>
+                </article>
+                <!-- Fin entrada: video de youtube -->
+
+                <!-- Inicia entrada: investigación -->
+                <article>
+                    <header>
+                        <hgroup>
+                            <!--Título del artículo con ícono-->
+                            <h2><img src="assets/images/contract.png" alt="escritura" width="50px" height="auto">Ensayo
+                                sobre los Costos de la Universidad</h2>
+                            <!--Fecha en la que se escribió el artículo -->
+                            <h4>01/03/22</h4>
+                        </hgroup>
+                    </header>
+                    <!-- inicia contenido del artículo -->
+                    <div>
+
+                        <p><strong>¿La educación no es nuestro derecho?</strong><br>
+                            Los graduados de la Ivy League pueden ganar entre 66 000 y 90 000 en los primeros años
+                            después de graduarse, y se sabe comúnmente que las escuelas de la Ivy League y las
+                            universidades Elite son alma mater para algunas de las personas más exitosas del mundo, pero
+                            sus gastos de matrícula son exorbitantes. La educación es algo realmente importante para el
+                            crecimiento de cada persona. Es parte de nuestra juventud y eventualmente de nuestra
+                            adultez. Participa en nuestras elecciones de carrera y se convierte en todo nuestro futuro y
+                            nuestra vida. El ranking de universidades tiene un gran impacto en las decisiones de
+                            nuestros futuros empleadores, pero también tienen un mayor impacto en nuestras billeteras.
+                            Un tema recurrente con los estudiantes universitarios es que tienen que elegir entre una
+                            educación mediocre o tener una deuda impagable de por vida, pero no debería ser así. Las
+                            universidades y la educación superior están realmente sobrevaloradas y deberían valorarse
+                            más adecuadamente, ya que se ha convertido en una necesidad, provoca mucha inestabilidad
+                            financiera y realmente no hay otras opciones.
+                            <br><strong>¿A dónde va todo el dinero?</strong><br>
+                            Los costos de matrícula son bastante caros y no justifican el costo de las lecciones y los
+                            productos ofrecidos con la especialización. Después de hacer todos los cálculos, un día en
+                            una universidad privada promedio en los EE. UU. cuesta alrededor de $100. Hay muchos
+                            factores que se suman cuando se pone un costo a la universidad, como las instalaciones, los
+                            dormitorios y, por supuesto, la matrícula, pero incluso con todos ellos, la ganancia se
+                            aprovecha mucho. Las universidades ofrecen muchas comodidades que están cubiertas por el
+                            costo de la matrícula; sin embargo, hay muchos estudiantes y todo el mantenimiento y los
+                            salarios de los maestros ya deberían estar cubiertos, por lo que se usa mucho dinero para
+                            obtener ganancias que hace que la matrícula sea muy costosa.
+                            <br><strong>Los préstamos de estudiantes</strong><br>
+                            Las deudas de los estudiantes son un problema realmente grande. Además del hecho de que la
+                            matrícula universitaria ya es cara, los pagos de préstamos se vuelven más caros cada año.
+                            Los estudiantes con educación en escuelas privadas se gradúan con una deuda promedio de
+                            $39,900, según una investigación realizada por The Institute of College Access & Success.
+                            Eso le tomaría a un estadounidense promedio de 10 a 30 años pagar y estar completamente
+                            libre de deudas. Una de las promesas de campaña del presidente Joe Biden fue perdonar los
+                            préstamos estudiantiles y pagar un mínimo de $10,000 por persona, pero como sabemos, se ha
+                            hecho poco al respecto, a pesar de la demanda constante. Alexandria Ocasio-Cortez ha
+                            declarado lo siguiente sobre la inactividad del presidente Biden: "Una de las cosas más
+                            impactantes que puede hacer el presidente Biden es buscar la cancelación de préstamos
+                            estudiantiles. Está totalmente dentro de su poder, [...]". Y aunque no es el responsabilidad
+                            del gobierno de pagar y cancelar las deudas de los estudiantes, Ocasio-Cortez tiene razón:
+                            el clima económico para los nuevos graduados, la matrícula demasiado cara y la demanda de un
+                            título hacen que sea casi imposible tener una vida factible y cómoda sin deudas. no tener
+                            que ser casi un anciano y todavía tener que preocuparse por cómo van a pagar su matrícula
+                            universitaria.
+                            <br><strong>Universidades Públicas</strong><br>
+                            Los colegios comunitarios no son una opción viable para un futuro brillante y sin deudas.
+                            Según un estudio realizado por el personal de la Universidad Estatal de Mississippi, es un
+                            40 % menos probable que un estudiante de un colegio comunitario complete su título completo.
+                            A eso se le suma que los estudiantes de universidades públicas también tienen que pagar su
+                            matrícula ya que no es totalmente gratis, de hecho, los estudiantes de universidades
+                            comunitarias pagan alrededor de $40,000 al año; si bien eso es ⅓ más accesible que una
+                            escuela privada, sigue siendo bastante dinero y se suma muy rápido a la pestaña. Los
+                            estudiantes de colegios comunitarios también tienen una educación promedio y tienden a tener
+                            un trabajo peor pagado.
+                            <br><strong>No ir a la universidad</strong><br>
+                            ¿Qué hay de simplemente no ir a la universidad? Algunas personas cuestionan la norma social
+                            que dice que es necesario ir a la universidad para tener éxito, como se muestra en la
+                            disminución de la inscripción en los colegios comunitarios a partir de 2020. Sin embargo,
+                            Steve Jobs o Bill Gates han demostrado que se puede lograrlo sin una educación
+                            universitaria. , eran conocidos por su experiencia, implacabilidad y deseo insaciable de
+                            éxito, que no mucha gente tiene. “[En promedio], el titular de una licenciatura gana una
+                            media de $2.8 millones, un 75 % más que si solo tuviera un diploma de escuela secundaria”.
+                            Los empleadores suelen establecer una jerarquía dependiendo de la persona más calificada y
+                            educada para el trabajo, y las personas con una licenciatura tienen más probabilidades de
+                            llegar a la cima. “[mientras] Más educación no siempre te da más dinero, [...] La estrategia
+                            más segura es seguir yendo a la escuela”, dijo Anthony Carnevale, director del Centro de
+                            Educación y Fuerza Laboral de la Universidad de Georgetown.
+                            <br>
+                            <label>Lo que ganan los graduados de Universidad. (millones de dólares)</label>
+                            <br>
+                            <meter value="2.8" min="0" max="5"></meter><br>
+                            <label>Lo que ganan los graduados de preparatoria. (millones de dólares)</label>
+                            <br>
+                            <meter value="1.6" min="0" max="5"></meter>
+                            <br>
+                            <strong>Conclusión</strong><br>
+                            Cualquiera que sea el camino que la gente termine decidiendo, aún representa un costo
+                            económico para la persona en cuestión, ya sea que tenga deudas o no tenga suficiente dinero
+                            para vivir. No estoy diciendo que la universidad deba ser gratuita porque el gobierno no
+                            puede pagar todo, y ciertamente es injusto hacer que las universidades ofrezcan sus cursos
+                            de alto nivel de forma gratuita, pero deberían tener un precio mucho más adecuado. La
+                            educación debería ser accesible a todo el mundo.
+                        </p>
+                        <figure>
+                            <img src="assets/images/Student-Loan-Debt.jpg" alt="Deuda de estudiantes" width="600px"
+                                height="auto">
+                            <figcaption>Arte conceptual sobre como la generación actual lucha por pagar las deudas.
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <footer>
+                        <!-- Datos del autor -->
+                        <div>
+                            <span>Álvaro Martínez Quesada</span> <a href="https://www.instagram.com/alvaro.mtzq/"
+                                target="_blank">@alvaro.mtzq</a>
+                        </div>
+                        <!-- fin datos del autor -->
+                        <!-- bibliografía -->
+                        <blockquote>
+                            <p>Deuda promedio a lo largo del tiempo Participación con Deuda a lo largo del tiempo
+                                Participación de los beneficiarios de BA con deuda de préstamos estudiantiles en 2016,
+                                por tipo de universidad Deuda promedio de los beneficiarios de BA con préstamos en 2016,
+                                por tipo de universidad DATOS BÁSICOS sobre la DEUDA ESTUDIANTIL. 2019.
+                                https://ticas.org/files/pub_files/qf_about_student_debt.pdf<br>
+                                Nova, Annie. “La mayoría de los estadounidenses quieren que Biden priorice la
+                                condonación de préstamos estudiantiles, dice una encuesta de CNBC”. CNBC, 28 de enero de
+                                2022.
+                                https://www.cnbc.com/2022/01/28/most-americans-want-biden-to-prioritize-student-loan-forgiveness-survey.html<br>
+                                Marlowe, Mónica, et al. Éxito de finalización y transferencia de estudiantes
+                                universitarios comunitarios de alto rendimiento. 2015.
+                                https://www.insidehighered.com/sites/default/server_files/files/Completion_high_achieving_community_college_completion_transfer_outcomes_020216.pdf<br>
+                                Roche, Darragh. "AOC le dice a Joe Biden: Cancele más préstamos estudiantiles para tener
+                                'cualquier oportunidad' en 2022". Newsweek, 15 de febrero de 2022.
+                                www.newsweek.com/alexandria-ocasio-cortez-tells-joe-biden-cancel-more-student-loans-any-chance-2022-midterms-1679325.<br>
+                                Gilberto, Néstor. "52 estadísticas y razones para no ir a la universidad: datos y
+                                análisis de 2021/2022". Financesonline.com, 28 de febrero de 2020.
+                                https://financesonline.com/reasons-not-to-go-to-college-statistics/#:~:text=Only%20about%2035%25%20of%20the,college
+                                %20(HuffPost%2C%202017).<br>
+                                Dicker, Jessica. "Más educación no siempre te da más dinero, según un informe". CNBC, 13
+                                de octubre de 2021.
+                                www.cnbc.com/2021/10/13/more-education-doesnt-always-get-you-more-money-report-finds.html#:~:text=A%20bachelor<br>
+                                "La herramienta de datos rápidos de NCES proporciona respuestas rápidas a muchas
+                                preguntas sobre educación (Centro Nacional de Estadísticas de Educación)". Ed.gov,
+                                Centro Nacional de Estadísticas Educativas, 2016.
+                                nces.ed.gov/fastfacts/display.asp?id=77</p>
+                        </blockquote>
+                        <!-- fin bibliografía -->
+                    </footer>
+                </article>
+                <!-- Termina entrada: investigacion -->
+
+                <!-- Inicia entrada: entrada de formato libre -->
+                <article>
+                    <header>
+                        <hgroup>
+                            <!-- Título del artículo con ícono -->
+                            <h2> <img src="assets/images/laugh.png" alt="Mucha Risa" height="50px" width="auto"> Meme
+                                Universitario</h2>
+                            <!-- Fecha en la que se escribió el artículo -->
+                            <h4>03/03/22</h4>
+                        </hgroup>
+                    </header>
+                    <!-- inicia contenido del artículo -->
+                    <div>
+                        <!-- inicia ilustración del artículo -->
+                        <figure>
+                            <img src="assets/images/meme.jpg" alt="Meme" height="500px" width="auto">
+                            <figcaption>Meme divertido</figcaption>
+                        </figure>
+                        <!-- termina ilustración del artículo -->
+
+                    </div>
+                    <!-- Termina contenido del artículo -->
+
+                    <footer>
+                        <!-- Datos del autor -->
+                        <div>
+                            <span>Álvaro Martínez Quesada</span> <a href="https://www.instagram.com/alvaro.mtzq/"
+                                target="_blank">@alvaro.mtzq</a>
+                        </div>
+                        <!-- fin datos del autor -->
+                        <!-- bibliografía -->
+                        <blockquote>
+                            <p>Just 100 Hilarious Memes for Anyone Who's Gone To University, Jemima Skelley:
+                                https://www.buzzfeed.com/jemimaskelley/uni-memes</p>
+                        </blockquote>
+                        <!-- fin bibliografía -->
+                    </footer>
+                </article>
+                <!-- Termina entrada: entrada de formato libre -->
+                <!-- inicia entrada: entrada de formato libre 2 -->
+                <article>
+                    <header>
+                        <hgroup>
+                            <!-- Título del artículo con ícono -->
+                            <h2> <img src="assets/images/paintbrush.png" alt="Artículo ilustrado" height="50px"
+                                    width="auto"> Texto ilustrado</h2>
+                            <!-- Fecha en la que se escribió el artículo -->
+                            <h4>08/03/22</h4>
+                        </hgroup>
+                    </header>
+                    <!-- inicia contenido del artículo -->
+                    <div>
+
+                        <h3>Vida Universitaria; dentro del campus.</h3>
+                        <p>Todos saben que las Universidades y Colegios Universitarios de Estados Unidos son
+                            académicamente fuertes, pero también son un lugar para hacer nuevos amigos y compartir
+                            experiencias que recordarás toda tu vida. Por lo tanto, asegúrate de explorar estas
+                            estrategias para aprovechar al máximo tu época de estudiante internacional.
+                            <br>
+                            A principios de cada nuevo curso académico los colegios universitarios organizan ferias en
+                            las que las organizaciones estudiantiles reclutan afiliados. Tu puedes anotarte en un club
+                            de baile, intentar la prueba de ingreso en un equipo deportivo, o aprender a conectarte con
+                            clubes donde los estudiantes pintan, cantan o incluso navegan.
+                            <br>
+                            Es muy tradicional que en las universidades estadounidenses haya clubes de todo tipo que se
+                            adapten a las capacidades y los intereses de cada alumno. El que haya tantas opciones de
+                            actividades extraescolares ha demostrado que los alumnos son más hábiles en la
+                            autoexploración, en el trabajo en equipo y desarrollen capacidades de liderazgo, en los
+                            ámbitos sociales, etc.
+                        </p>
+
+                        <!-- inicia ilustración del artículo -->
+                        <figure>
+                            <img src="assets/images/vidauni.jpg" alt="Vida Universitaria" width="600px" height="auto">
+                            <figcaption>En Estados Unidos son muy comunes las actividades de integración fuera del
+                                horario de clases.</figcaption>
+                        </figure>
+                        <!-- termina ilustración del artículo -->
+
+                    </div>
+                    <!-- Termina contenido del artículo -->
+
+                    <footer>
+                        <!-- Datos del autor -->
+                        <div>
+                            <span>Álvaro Martínez Quesada</span> <a href="https://www.instagram.com/alvaro.mtzq/"
+                                target="_blank">@alvaro.mtzq</a>
+                        </div>
+                        <!-- fin datos del autor -->
+                        <!-- bibliografía -->
+                        <blockquote>
+                            <p>Vida Universtiaria en Estados Unidos, Alex González:
+                                https://www.xn--viviendoelsueo-2nb.com/estudiar-en-estados-unidos/vida-universitaria/
+                            </p>
+                        </blockquote>
+                        <!-- fin bibliografía -->
+                    </footer>
+                </article>
+                <!-- fin entrada: nombre_del_artículo -->
             </main>
             <!-- Termina contenido principal -->
             <!-- Empieza barra lateral -->
-            <aside>
+            <aside class="aside">
+                <h2>Microblogging</h2>
 
+                <!-- entrada de microbloggig -->
+                <div>
+                    <img src="assets/images/pintura.png" alt="Pintura" width="60px" height="auto"><span>Gracias al
+                        aumento del costo de colegiaturas, cada vez menos personas acuden a la
+                        universidad.</span>
+                </div>
+                <!-- termina entrada de microblogging -->
+                <!-- entrada de microbloggig -->
+                <div>
+                    <img src="assets/images/pintura.png" alt="Pintura" width="60px" height="auto"><span>El número
+                        de
+                        carreras ha aumentado gracias a los diferentes caminos y profesiones.</span>
+                </div>
+                <!-- termina entrada de microblogging -->
+                <!-- entrada de microbloggig -->
+                <div>
+                    <img src="assets/images/pintura.png" alt="Pintura" width="60px" height="auto"><span>Es 3 veces
+                        más fácil obtener un trabajo con un título universitario que con solo el título de
+                        preparatoria.</span>
+                </div>
+                <!-- termina entrada de microblogging -->
+                <!-- entrada de microbloggig -->
+                <div>
+                    <img src="assets/images/pintura.png" alt="Pintura" width="60px" height="auto"><span>Las
+                        universidades tienen un origen religioso ya que los conocimientos proporcionados eran solo
+                        para los futuros sacerdotes.</span>
+                </div>
+                <!-- termina entrada de microblogging -->
+                <!-- entrada de microbloggig -->
+                <div>
+                    <img src="assets/images/pintura.png" alt="Pintura" width="60px" height="auto"><span>A pesar de
+                        que casi 1/4 de la población mundial no va a la universidad, aún así la educación
+                        superior es considerada la norma.</span>
+                </div>
+                <!-- termina entrada de microblogging -->
+                <!-- entrada de microbloggig -->
+                <div>
+                    <img src="assets/images/pintura.png" alt="Pintura" width="60px" height="auto"><span>En México,la
+                        universidad mejor posicionada es la UNAM.</span>
+                </div>
+                <!-- termina entrada de microblogging -->
+                <!-- entrada de microbloggig -->
+                <div>
+                    <img src="assets/images/pintura.png" alt="Pintura" width="60px" height="auto"><span>Las carrera
+                        más
+                        demandadas en el mundo son Ingeniería Informática, Comercio y Marketing.
+                    </span>
+                </div>
+                <!-- termina entrada de microblogging -->
+                <!-- entrada de microbloggig -->
+                <div>
+                    <img src="assets/images/pintura.png" alt="Pintura" width="60px" height="auto"><span>Los
+                        estudiantes del MIT estan cualificados para ser piratas.</span>
+                </div>
+                <!-- termina entrada de microblogging -->
+                <!-- entrada de microbloggig -->
+                <div>
+                    <img src="assets/images/pintura.png" alt="Pintura" width="60px" height="auto"><span>En la
+                        Universidad de California es posible estudiar las implicaciones politicas y sociales de la serie
+                        "Game of Thrones".</span>
+                </div>
+                <!-- termina entrada de microblogging -->
+                <!-- entrada de microbloggig -->
+                <div>
+                    <img src="assets/images/pintura.png" alt="Pintura" width="60px" height="auto"><span>Las
+                        Universidades estan constantemente actualizándose, dejando de lado los métodos tradicionales de
+                        aprendizaje.</span>
+                </div>
+                <!-- termina entrada de microblogging -->
+                <!-- entrada de microbloggig -->
+                <div>
+                    <img src="assets/images/pintura.png" alt="Pintura" width="60px" height="auto"><span></span>
+                </div>
+                <!-- termina entrada de microblogging -->
+                <!-- entrada de microbloggig -->
+                <div>
+                    <img src="assets/images/pintura.png" alt="Pintura" width="60px" height="auto"><span></span>
+                </div>
+                <!-- termina entrada de microblogging -->
+                <!-- entrada de microbloggig -->
+                <div>
+                    <img src="assets/images/pintura.png" alt="Pintura" width="60px" height="auto"><span></span>
+                </div>
+                <!-- termina entrada de microblogging -->
+                <!-- entrada de microbloggig -->
+                <div>
+                    <img src="assets/images/pintura.png" alt="Pintura" width="60px" height="auto"><span></span>
+                </div>
+                <!-- termina entrada de microblogging -->
+                <!-- entrada de microbloggig -->
+                <div>
+                    <img src="assets/images/pintura.png" alt="Pintura" width="60px" height="auto"><span></span>
+                </div>
+                <!-- termina entrada de microblogging -->
             </aside>
             <!-- Termina barra lateral -->
             <!-- Empieza el footer -->
-            <footer>
+            <footer id="footer_blog">
+                <div>
+                    <span>Álvaro Martínez Quesada</span>
+                </div>
+                <div>
+                    <span>Blog creado en <i>Colegio Álamos</i>.</span>
+                    <span>Las opiniones contenidas en este proyecto pertenecen a los autores de cada entrada.</span>
+                </div>
+                <div>
+                    <span>Alejandro Álvarez Domínguez</span>
+                </div>
 
             </footer>
             <!-- Termina el footer -->
