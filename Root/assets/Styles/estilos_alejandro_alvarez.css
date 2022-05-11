@@ -1,11 +1,11 @@
 /*PARA EL FONDO Y LA LETRA DE TODA LA PÁGINA*/
-body{
+body {
     background: #000;
     color: white;
 }
 
 /*PARA DIFERENCIAR CADA ARTÍCULO*/
-article{
+article {
     background-color: rgb(102, 101, 101);
     padding: 1.5rem;
     border-bottom: 1px solid;
@@ -18,25 +18,32 @@ aside {
     color: white;
     text-align: justify;
 }
-aside>div:nth-child(2){
+
+aside>div:nth-child(2) {
     background-color: rgb(44, 43, 43);
 }
-aside>div:nth-child(4){
+
+aside>div:nth-child(4) {
     background-color: rgb(44, 43, 43);
 }
-aside>div:nth-child(6){
+
+aside>div:nth-child(6) {
     background-color: rgb(44, 43, 43);
 }
-aside>div:nth-child(8){
+
+aside>div:nth-child(8) {
     background-color: rgb(44, 43, 43);
 }
-aside>div:nth-child(10){
+
+aside>div:nth-child(10) {
     background-color: rgb(44, 43, 43);
 }
-aside>div:nth-child(12){
+
+aside>div:nth-child(12) {
     background-color: rgb(44, 43, 43);
 }
-aside>div>img{
+
+aside>div>img {
     background-color: #fff;
     padding: 0.5rem;
     border-radius: 50%;
@@ -44,7 +51,8 @@ aside>div>img{
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
-aside>div{
+
+aside>div {
     display: flex;
     align-items: center;
 }
@@ -54,47 +62,55 @@ aside>div{
     text-align: center;
     font-size: 3rem;
 }
-article>header>hgroup{
+
+article>header>hgroup {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-article>header>hgroup>h2{
+
+article>header>hgroup>h2 {
     display: flexbox;
     align-items: center;
 }
-article>header>hgroup>h2>img{
+
+article>header>hgroup>h2>img {
     margin-right: 1rem;
 }
-aside>header>h2{
+
+aside>header>h2 {
     text-align: center;
     font-size: 1.3rem;
 }
 
 /*PARA DAR FORMATO A LAS NOTAS DE LAS IMÁGENES DE ILUSTRACIÓN*/
-figcaption{
+figcaption {
     margin-left: 3rem;
     font-style: italic;
 }
 
 /*PARA ENMARCAR LAS IMÁGENES DE ILUSTRACIÓN*/
-figure{
+figure {
     border: solid white 4px;
     display: inline-block;
 }
 
 /*PARA DAR FORMATO AL FOOTER DEL BLOG*/
 /*TENGO DUDA: POR QUÉ EL FLEX SE HACE EN DIFERENTES FILAS, POR QUÉ NO CAMBIA EL TAMAÑO DE LA LETRA*/
-#footer_blog{
+#footer_blog {
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 4rem;padding-bottom: 4rem;padding-left: 0rem;padding-right: 0rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
     font-size: 1.3rem;
     flex-direction: row;
 }
-#footer_blog div:nth-child(2){
+
+#footer_blog div:nth-child(2) {
     font-size: 0.9rem;
 }
 
@@ -102,18 +118,22 @@ figure{
 .resaltado {
     color: yellow;
 }
-nav>ul>li>a{
+
+nav>ul>li>a {
     text-decoration: none;
     color: #fff
 }
-nav>ul>li>a:hover{
+
+nav>ul>li>a:hover {
     text-decoration: underline;
     color: greenyellow;
 }
-nav{
-   font-size: 1.3rem; 
+
+nav {
+    font-size: 1.3rem;
 }
-nav>ul{
+
+nav>ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -122,7 +142,7 @@ nav>ul{
 }
 
 /*PARA DAR FORMATO A LAS LISTAS*/
-li{
+li {
     list-style: none;
 }
 
@@ -133,15 +153,19 @@ section {
     grid-auto-rows: auto;
     gap: 3rem;
 }
+
 section>header {
     grid-column: span 12;
 }
+
 section>main {
     grid-column: span 8;
 }
+
 section>aside {
     grid-column: span 4
 }
+
 section>footer {
     grid-column: span 12;
 }
