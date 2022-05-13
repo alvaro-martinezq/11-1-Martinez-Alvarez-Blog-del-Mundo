@@ -1,5 +1,6 @@
 /*PARA EL FONDO Y LA LETRA DE TODA LA PÁGINA*/
 body {
+    margin:0;
     background: #000;
     color: white;
 }
@@ -55,6 +56,16 @@ aside>div>img {
 aside>div {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 0.6rem;
+    border-bottom: 1px #fff;
+}
+
+@media(min-width: 1024.1px) and (max-width:1324.1px){
+    aside>div{
+        flex-direction: column;
+    }
 }
 
 /*PARA DAR FORMATO A LOS TÍTULOS*/
@@ -131,14 +142,28 @@ nav>ul>li>a:hover {
 
 nav {
     font-size: 1.3rem;
+    background-color: #000;
+    position: fixed;
+    width:100%
 }
 
+nav>ul{
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    grid-auto-rows: auto;
+    gap: 1rem;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1.5rem;
+}
+
+@media(min-width: 1100px){
 nav>ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
     border-bottom: 1px solid #fff;
     padding-bottom: 0.5rem;
+}
 }
 
 /*PARA DAR FORMATO A LAS LISTAS*/
@@ -156,14 +181,27 @@ section {
 
 section>header {
     grid-column: span 12;
+    padding-top: 9rem;
 }
 
+section>main{
+    grid-column: span 12;
+}
+
+@media(min-width:1024.1px){
 section>main {
     grid-column: span 8;
 }
+}
 
+section>aside{
+    grid-column: span 12;
+}
+
+@media(min-width:1024.1px){
 section>aside {
     grid-column: span 4
+}
 }
 
 section>footer {
